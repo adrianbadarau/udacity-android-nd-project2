@@ -8,10 +8,10 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    public Integer team1Goals = 0;
-    public Integer team2Goals = 0;
-    public Integer team1Fouls = 0;
-    public Integer team2Fouls = 0;
+    private Integer team1Goals = 0;
+    private Integer team2Goals = 0;
+    private Integer team1Fouls = 0;
+    private Integer team2Fouls = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

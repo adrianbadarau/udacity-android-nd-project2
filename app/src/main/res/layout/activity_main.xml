@@ -53,13 +53,15 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="@string/goalsLbl"
-                        android:textColor="@android:color/black" />
+                        android:textColor="@android:color/black"
+                        android:textSize="24sp" />
 
                     <TextView
                         android:id="@+id/team1Goals_TV"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1" />
+                        android:layout_weight="1"
+                        android:textSize="24sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -74,13 +76,15 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="@string/foulsLbl"
-                        android:textColor="@android:color/black" />
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp" />
 
                     <TextView
                         android:id="@+id/team1Fouls_TV"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1" />
+                        android:layout_weight="1"
+                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <Button
@@ -127,13 +131,15 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="@string/goalsLbl"
-                        android:textColor="@android:color/black" />
+                        android:textColor="@android:color/black"
+                        android:textSize="24sp" />
 
                     <TextView
                         android:id="@+id/team2Goals_TV"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1" />
+                        android:layout_weight="1"
+                        android:textSize="24sp" />
 
                 </LinearLayout>
 
