@@ -18,43 +18,43 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final Button team1GoalBtn = findViewById(R.id.team1Goal_BTN);
+        final Button team1GoalBtn = findViewById(R.id.btn_team1_goal);
         team1GoalBtn.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View v) {
                 team1Goals++;
-                updateText(team1Goals, R.id.team1Goals_TV);
+                updateText(team1Goals, R.id.tv_team1_goals);
             }
         });
 
-        final Button team2GoalBtn = findViewById(R.id.team2Goal_BTN);
+        final Button team2GoalBtn = findViewById(R.id.btn_team2_goal);
         team2GoalBtn.setOnClickListener(new Button.OnClickListener(){
             @Override
             public void onClick(View v) {
                 team2Goals++;
-                updateText(team2Goals, R.id.team2Goals_TV);
+                updateText(team2Goals, R.id.tv_team2_goals);
             }
         });
 
-        Button team1FaulBtn = findViewById(R.id.team1Foul_BTN);
+        Button team1FaulBtn = findViewById(R.id.btn_team1_foul);
         team1FaulBtn.setOnClickListener(new Button.OnClickListener(){
 
             @Override
             public void onClick(View v) {
                 team1Fouls++;
-                updateText(team1Fouls, R.id.team1Fouls_TV);
+                updateText(team1Fouls, R.id.tv_team1_fouls);
             }
         });
-        Button team2FaulBtn = findViewById(R.id.team2Foul_BTN);
+        Button team2FaulBtn = findViewById(R.id.btn_team2_foul);
         team2FaulBtn.setOnClickListener(new Button.OnClickListener(){
 
             @Override
             public void onClick(View v) {
                 team2Fouls++;
-                updateText(team2Fouls, R.id.team2Fouls_TV);
+                updateText(team2Fouls, R.id.tv_team2_fouls);
             }
         });
-        Button resetBtn = findViewById(R.id.reset_BT);
+        Button resetBtn = findViewById(R.id.btn_reset);
         resetBtn.setOnClickListener(new Button.OnClickListener(){
 
             @Override
@@ -63,10 +63,10 @@ public class MainActivity extends AppCompatActivity {
                 team2Goals = 0;
                 team1Fouls = 0;
                 team2Fouls = 0;
-                updateText(team1Goals, R.id.team1Goals_TV);
-                updateText(team2Goals, R.id.team2Goals_TV);
-                updateText(team1Fouls, R.id.team1Fouls_TV);
-                updateText(team2Fouls, R.id.team2Fouls_TV);
+                updateText(team1Goals, R.id.tv_team1_goals);
+                updateText(team2Goals, R.id.tv_team2_goals);
+                updateText(team1Fouls, R.id.tv_team1_fouls);
+                updateText(team2Fouls, R.id.tv_team2_fouls);
             }
         });
     }
